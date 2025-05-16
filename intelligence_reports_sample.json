@@ -1,0 +1,227 @@
+[
+  {
+    "report_id": "REP-0001",
+    "region": "Middle East",
+    "timestamp": "2025-05-01T14:23:00Z",
+    "summary": "Unusual troop movement near the northern border detected by satellite imagery.",
+    "classification": "Secret",
+    "source": "Satellite",
+    "threat_score": 7,
+    "keywords": [
+      "troops",
+      "border",
+      "movement"
+    ],
+    "full_text": "Satellite imagery reveals increased troop movement near the northern border of Country X. Estimated number of units is approximately 500. No weapons visible yet, but logistic supplies are being mobilized."
+  },
+  {
+    "report_id": "REP-0002",
+    "region": "Europe",
+    "timestamp": "2025-05-02T09:15:00Z",
+    "summary": "Intercepted communication indicates planned cyberattack on critical infrastructure.",
+    "classification": "Top Secret",
+    "source": "Signal Intercept",
+    "threat_score": 9,
+    "keywords": [
+      "cyberattack",
+      "infrastructure",
+      "planned"
+    ],
+    "full_text": "Intercepted encrypted communication suggests an imminent cyberattack targeting the power grid of Country Y. Attackers are coordinating timing for late May."
+  },
+  {
+    "report_id": "REP-0003",
+    "region": "Asia Pacific",
+    "timestamp": "2025-05-03T17:45:00Z",
+    "summary": "Human intelligence reports new weapons testing at remote facility.",
+    "classification": "Confidential",
+    "source": "Human Intelligence",
+    "threat_score": 6,
+    "keywords": [
+      "weapons",
+      "testing",
+      "facility"
+    ],
+    "full_text": "An agent on the ground has reported new weapons testing activities at a remote military installation near Coast Z. The exact nature of weapons is unknown, but activity has increased in the past 48 hours."
+  },
+  {
+    "report_id": "REP-0004",
+    "region": "Middle East",
+    "timestamp": "2025-05-04T11:00:00Z",
+    "summary": "Increased chatter detected on encrypted channels about supply chain disruption.",
+    "classification": "Secret",
+    "source": "Signal Intercept",
+    "threat_score": 5,
+    "keywords": [
+      "supply",
+      "disruption",
+      "encrypted"
+    ],
+    "full_text": "Multiple encrypted communications intercepted indicating potential disruption in supply lines to key forward operating bases."
+  },
+  {
+    "report_id": "REP-0005",
+    "region": "Europe",
+    "timestamp": "2025-05-05T08:30:00Z",
+    "summary": "Satellite photos show new defensive installations near contested border.",
+    "classification": "Confidential",
+    "source": "Satellite",
+    "threat_score": 6,
+    "keywords": [
+      "defense",
+      "installations",
+      "border"
+    ],
+    "full_text": "Satellite photos reveal construction of trenches and anti-aircraft positions near the contested border region between Country A and Country B."
+  },
+  {
+    "report_id": "REP-0006",
+    "region": "Asia Pacific",
+    "timestamp": "2025-05-06T16:20:00Z",
+    "summary": "Human source reports increased recruitment activities in urban areas.",
+    "classification": "Secret",
+    "source": "Human Intelligence",
+    "threat_score": 4,
+    "keywords": [
+      "recruitment",
+      "urban",
+      "activities"
+    ],
+    "full_text": "A trusted human source reports an increase in recruitment efforts for an unknown group operating in several major cities."
+  },
+  {
+    "report_id": "REP-0007",
+    "region": "Middle East",
+    "timestamp": "2025-05-07T13:45:00Z",
+    "summary": "Drone sightings reported near sensitive infrastructure sites.",
+    "classification": "Top Secret",
+    "source": "Signal Intercept",
+    "threat_score": 8,
+    "keywords": [
+      "drone",
+      "sightings",
+      "infrastructure"
+    ],
+    "full_text": "Multiple drone sightings have been reported near power plants and communication hubs, potentially for reconnaissance purposes."
+  },
+  {
+    "report_id": "REP-0008",
+    "region": "Europe",
+    "timestamp": "2025-05-08T10:00:00Z",
+    "summary": "Intercepted plans for sabotage at major transportation hub.",
+    "classification": "Secret",
+    "source": "Signal Intercept",
+    "threat_score": 7,
+    "keywords": [
+      "sabotage",
+      "transportation",
+      "plans"
+    ],
+    "full_text": "Intercepted messages indicate plans to sabotage railway lines and disrupt logistics at a major transportation hub."
+  },
+  {
+    "report_id": "REP-0009",
+    "region": "Asia Pacific",
+    "timestamp": "2025-05-09T15:55:00Z",
+    "summary": "Satellite imagery shows increased naval activity near disputed waters.",
+    "classification": "Confidential",
+    "source": "Satellite",
+    "threat_score": 5,
+    "keywords": [
+      "naval",
+      "activity",
+      "disputed"
+    ],
+    "full_text": "Satellite images reveal a buildup of naval vessels near disputed maritime zones, potentially signaling escalation."
+  },
+  {
+    "report_id": "REP-0010",
+    "region": "Middle East",
+    "timestamp": "2025-05-10T09:10:00Z",
+    "summary": "Human intelligence reports unusual meetings of high-ranking officials.",
+    "classification": "Secret",
+    "source": "Human Intelligence",
+    "threat_score": 6,
+    "keywords": [
+      "meetings",
+      "officials",
+      "unusual"
+    ],
+    "full_text": "A reliable human intelligence source has reported unusual meetings among senior officials, possibly discussing strategic operations."
+  },
+  {
+    "report_id": "REP-0011",
+    "region": "Europe",
+    "timestamp": "2025-05-11T14:35:00Z",
+    "summary": "Intercepted communication suggests weapon smuggling routes active.",
+    "classification": "Secret",
+    "source": "Signal Intercept",
+    "threat_score": 7,
+    "keywords": [
+      "smuggling",
+      "weapons",
+      "routes"
+    ],
+    "full_text": "Encrypted messages intercepted indicate ongoing weapon smuggling operations across borders using covert routes."
+  },
+  {
+    "report_id": "REP-0012",
+    "region": "Asia Pacific",
+    "timestamp": "2025-05-12T18:00:00Z",
+    "summary": "Satellite data shows construction of new missile silos.",
+    "classification": "Top Secret",
+    "source": "Satellite",
+    "threat_score": 9,
+    "keywords": [
+      "missile",
+      "construction",
+      "silos"
+    ],
+    "full_text": "Recent satellite imagery confirms the construction of multiple missile silos at a known military base."
+  },
+  {
+    "report_id": "REP-0013",
+    "region": "Middle East",
+    "timestamp": "2025-05-13T11:20:00Z",
+    "summary": "Signal intercepts reveal communication blackout in key region.",
+    "classification": "Secret",
+    "source": "Signal Intercept",
+    "threat_score": 5,
+    "keywords": [
+      "communication",
+      "blackout",
+      "region"
+    ],
+    "full_text": "Communication blackout detected via signal intercepts in a strategic region, possibly indicating electronic warfare or network disruption."
+  },
+  {
+    "report_id": "REP-0014",
+    "region": "Europe",
+    "timestamp": "2025-05-14T07:50:00Z",
+    "summary": "Human intelligence indicates possible sleeper cell activation.",
+    "classification": "Top Secret",
+    "source": "Human Intelligence",
+    "threat_score": 8,
+    "keywords": [
+      "sleeper",
+      "cell",
+      "activation"
+    ],
+    "full_text": "Trusted human intelligence reports suggest activation of sleeper cells within major urban centers."
+  },
+  {
+    "report_id": "REP-0015",
+    "region": "Asia Pacific",
+    "timestamp": "2025-05-15T16:40:00Z",
+    "summary": "Increased encrypted data traffic near military communications hubs.",
+    "classification": "Secret",
+    "source": "Signal Intercept",
+    "threat_score": 6,
+    "keywords": [
+      "encrypted",
+      "data",
+      "traffic"
+    ],
+    "full_text": "Analysis of intercepted signals shows increased encrypted data traffic near military communications hubs, possibly preparatory to an operation."
+  }
+]

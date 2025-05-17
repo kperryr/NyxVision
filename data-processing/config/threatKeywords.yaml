@@ -1,0 +1,63 @@
+high_threat:
+  explosion: 5
+  IED: 5
+  missile: 5
+  ambush: 5
+  "open fire": 5
+  "opened fire": 5
+  gunfight: 5
+  shootout: 5
+  sniper: 5
+  "suicide bombing": 5
+  attack: 5  # when confirmed
+  detonation: 5
+  "hostile fire": 5
+  RPG: 5
+  "assault on base": 5
+  "assault on checkpoint": 5
+
+medium_threat:
+  threatened: 3
+  "planned attack": 3
+  "armed group": 3
+  "heavily armed": 3
+  firearm: 3
+  AK-47: 3
+  rifle: 3
+  weapon: 3
+  "training camp": 3
+  surveillance: 3
+  intrusion: 3
+  infiltration: 3
+  "explosive device": 3
+  "smuggling weapons": 3
+  "issued warning": 3
+  "unauthorized access": 3
+  "suspicious package": 3
+
+low_threat:
+  recon: 1
+  reconnaissance: 1
+  loitering: 1
+  "casing the area": 1
+  insurgents: 2
+  cartel: 2
+  recruitment: 1
+  "arms trade": 2
+  "arms deal": 2
+  funding: 1
+  "perimeter breach": 2
+  "power plant": 1
+  infrastructure: 1
+  "carrying package": 2
+  "carrying bag": 2
+  "unknown persons near base": 2
+
+modifiers:
+  confirmed: 2
+  verified: 2
+  multiple_high_threats: 3
+  embassy: 2
+  airport: 2
+  "attack planned for": 3
+  ISIS: 4

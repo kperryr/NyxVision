@@ -1,0 +1,56 @@
+negations:
+  high_threat:
+    "no explosion occurred": 5
+    "IED not found": 5
+    "missile not launched": 5
+    "ambush did not happen": 5
+    "did not open fire": 5
+    "no gunfight reported": 5
+    "no shootout took place": 5
+    "no sniper detected": 5
+    "suicide bombing was prevented": 5
+    "no attack confirmed": 5
+    "no detonation reported": 5
+    "no hostile fire": 5
+    "no RPG launch detected": 5
+    "no assault on base": 5
+    "no assault on checkpoint": 5
+
+  medium_threat:
+    "not an armed group": 3
+    "no planned attack": 3
+    "not heavily armed": 3
+    "no firearms found": 3
+    "no AK-47 recovered": 3
+    "no rifles visible": 3
+    "no weapons detected": 3
+    "no training camp identified": 3
+    "no surveillance activity": 3
+    "no intrusion detected": 3
+    "infiltration ruled out": 3
+    "no explosive device found": 3
+    "no smuggling activity": 3
+    "warning not issued": 3
+    "no unauthorized access": 3
+    "package not suspicious": 3
+
+  low_threat:
+    "no reconnaissance activity": 1
+    "not loitering": 1
+    "area not being cased": 1
+    "no insurgents in area": 2
+    "no cartel presence confirmed": 2
+    "not recruitment-related": 1
+    "no arms trade observed": 2
+    "no arms deal underway": 2
+    "not related to funding": 1
+    "perimeter not breached": 2
+    "not near power plant": 1
+    "infrastructure intact": 1
+    "not carrying a package": 2
+    "bag not suspicious": 2
+    "no unknown persons near base": 2
+
+modifiers:
+    "unconfirmed": 1
+    "unverified": 1

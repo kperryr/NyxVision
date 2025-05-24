@@ -1,15 +1,18 @@
 import json
 import os
 import shutil
+import pandas as pd
+import pyarrow as pa
+import pyarrow.parquet as pq
 from analytics import *
 from enrichmentData import *
-from updateFileID import getCount
+from jsonToParquet import transformToParquet
 
 #Folder path with data to process
 path = r"C:\\Users\\kpola\\CodeProjects\\NyxVision\\data-processing\\data-to-process"
 oldFileDest = r"C:\\Users\\kpola\\codeProjects\\NyxVision\\data-processing\\processed-data\\oldProcessedData"
 
-count = getCount()
+
 #change path
 os.chdir(path)
 
@@ -34,18 +37,9 @@ for file in os.listdir():
             if type(item) is dict:
                 
                 dataDict = scanThreatData(item)
-                print(dataDict)
-                processedData = combineProcessedData(dataDict["score"], dataDict["keywords"])
-                item["processedData"] = processedData
-
-                filenamePath = "C:\\Users\\kpola\\codeProjects\\NyxVision\\data-processing\\processed-data\\databaseReady\\DBDataInWaiting"+ str(count) + '.json'
-                with open(filenamePath,'x') as newfile:
-                    try:
-                        json.dump(item,newfile,indent=4)
-                        count += 1
-                    except:
-                        print("Please update count")
-                        
+                processedData = combineProcessedData(item,dataDict["score"], dataDict["keywords"])
+                transformToParquet(processedData)
+     
         dst_path = os.path.join(oldFileDest, file)
         shutil.move(file_path, dst_path )
         

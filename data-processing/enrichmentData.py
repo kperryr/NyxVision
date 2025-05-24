@@ -1,11 +1,12 @@
 import json
 from datetime import datetime
 
-def combineProcessedData(score, keywordArr):
-    processedDict = {}
-    processedDict["processedScore"] = score
-    processedDict["processedKeywords"] = keywordArr
-    processedDict["processedDate"] = datetime.utcnow().isoformat() + "Z"
+def combineProcessedData(dict, score, keywordArr):
+    
+    dict["processedScore"] = score
 
-    return processedDict
+    dict["processedKeywords"] = keywordArr if keywordArr else None
+    dict["processedDate"] = datetime.utcnow().isoformat() + "Z"
+
+    return dict
 

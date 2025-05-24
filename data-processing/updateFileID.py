@@ -1,4 +1,3 @@
-
 import os
 
 def getCount():
@@ -6,10 +5,8 @@ def getCount():
     count = 0
     #change path
     os.chdir(fileDest)
-    if len(os.listdir(fileDest)) == 0:
-        count = 1
-    else:
-        for file in os.listdir():
-            count += 1
-        
+    
+    for file in os.listdir():
+        count += 1
+    count += 1     
     return count

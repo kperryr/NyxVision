@@ -10,7 +10,7 @@ from jsonToParquet import transformToParquet
 
 #Folder path with data to process
 path = r"C:\\Users\\kpola\\CodeProjects\\NyxVision\\data-processing\\data-to-process"
-oldFileDest = r"C:\\Users\\kpola\\codeProjects\\NyxVision\\data-processing\\processed-data\\oldProcessedData"
+processedFileDest = r"C:\\Users\\kpola\\codeProjects\\NyxVision\\data-processing\\processed-data\\oldProcessedData"
 
 
 #change path
@@ -40,7 +40,7 @@ for file in os.listdir():
                 processedData = combineProcessedData(item,dataDict["score"], dataDict["keywords"])
                 transformToParquet(processedData)
      
-        dst_path = os.path.join(oldFileDest, file)
+        dst_path = os.path.join(processedFileDest, file)
         shutil.move(file_path, dst_path )
         
 

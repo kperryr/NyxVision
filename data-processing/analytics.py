@@ -18,7 +18,7 @@ def scanThreatData(reportDict):
     dictKeywordCount = {}
     
     threatKeys = getThreatKeywords()
-    textToScan = reportDict["full_text"]
+    textToScan = reportDict["fullText"]
     
     if(textToScan is None): #fix
         return ["No summary to scan"]
@@ -49,5 +49,3 @@ def scanNegation(text,score, dict):
                 score -= negationCount * weight
     
     return dict
-                     
- 

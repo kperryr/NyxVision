@@ -56,7 +56,9 @@ try:
                 'coordinates':JSONB,
                 'keywords': JSONB,
                 'processedKeywords': JSONB,
-                'timestamp':TIMESTAMP(timezone=True)
+                'timestamp':TIMESTAMP(timezone=True),
+                'processedDate':TIMESTAMP(timezone=True)
+
             }
     )
 

@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import org.hibernate.annotations.Immutable;
 import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 import java.time.LocalDateTime;
@@ -13,6 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 @Entity
+@Immutable
 @Table(name = "intel_reports")
 public class IntelReport {
 

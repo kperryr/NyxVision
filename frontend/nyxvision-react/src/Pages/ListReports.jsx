@@ -1,5 +1,8 @@
  import axios from 'axios';
+ import './ListReports.css';
  import React, { useEffect, useState } from "react";
+ import formatDateString from '../Scripts/DateManipulations.js';
+import NavBar from '../Componenets/NavBar.jsx';
  
  export default function ListReports(){
     const [reportData, setReportData] = useState([]);
@@ -30,27 +33,40 @@
 
     return(
         <>
+            <NavBar/>
+            <div className="Reports">Reports</div>
             <div>
-                <table>
+                
+                <table className="reportTable">
                     <thead>
                         <tr>
-                            {tableCategories.map((value, i) => (
-                                <th key={i}>{value}</th>
-                            ))}
+                            <th>Report ID</th>
+                            <th>Region</th>
+                            <th>Threat Score</th>
+                            <th>Summary</th>
+                            <th>Classification</th>
+                            <th>Source</th>
+                            <th>Keywords</th>
+                            <th>Uploaded</th>
+                            <th>Time Processed</th>
+                            <th>Details</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {reportData.map((report, rowIndex) => (
-                            <tr key={rowIndex}>
-                                {Object.values(report).map((val, colIndex) => (
-                                <td key={colIndex}>
-                                    {typeof val === "object" && val !== null
-                                    ? JSON.stringify(val) 
-                                    : val}
-                                </td>
-                                ))}
+                        {reportData.map((row)=>(
+                            <tr key={row.reportId}>
+                                <td>{row.reportId}</td>
+                                <td>{row.region}</td>
+                                <td>{row.threatScore}</td>
+                                <td>{row.summary}</td>
+                                <td>{row.classification}</td>
+                                <td>{row.source}</td>
+                                <td>{row.keywords}</td>
+                                <td>{formatDateString(row.timestamp)}</td>
+                                <td>{formatDateString(row.processedDate)}</td>
+                                <td>View more</td>
                             </tr>
-                            ))}
+                        ))}
                         </tbody>
                 </table>
             </div>

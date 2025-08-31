@@ -1,0 +1,41 @@
+.Reports{
+    color:black;
+    margin:0px 6px 20px 20px;
+    font-size:xxx-large;
+    font-weight: 400;
+
+}
+table {
+  table-layout: auto;
+  width: 95%;
+  min-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  /* border: 1px solid #09021f; */ 
+  background-color: rgb(225, 224, 224);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+
+}
+
+th,
+td {
+  padding: 0.6em;
+  text-align: center;
+
+}
+
+th {
+    background-color: #140c2fdb;
+    color: white;
+    font-weight: 200;
+    
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+td {
+    color:#474747
+}
+
+tr:nth-child(even) {background-color: #d8d8d8;}
